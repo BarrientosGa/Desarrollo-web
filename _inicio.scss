@@ -20,27 +20,15 @@ $colorBlanco: white;
 }
 
 .contenedor .header__barraDeBusqueda{
+    grid-column-start: 3;
+    grid-column-end: 4;
     justify-self: $posicion_centro;
     align-self: $posicion_centro;
+    padding-left: 170px;
 }
 .contenedor .header__barraDeBusqueda button{
     border-style: none;
 }
-
-.contenedor .header__redesSociales{
-    justify-self: end;
-    align-self: $posicion_centro;
-    font-size: 25px;
-}
-
-.fa-instagram {
-    padding-right: 10px;
-}
-
-.fa-facebook-f {
-    padding-right: 8px;
-}
-
 .navbar-nav {
     background-color: #E8F8F5;
 }

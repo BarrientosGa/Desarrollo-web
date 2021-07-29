@@ -22,32 +22,19 @@
 }
 
 .contenedor .header__barraDeBusqueda {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 4;
   -ms-grid-column-align: center;
       justify-self: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding-left: 170px;
 }
 
 .contenedor .header__barraDeBusqueda button {
   border-style: none;
-}
-
-.contenedor .header__redesSociales {
-  -ms-grid-column-align: end;
-      justify-self: end;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  font-size: 25px;
-}
-
-.fa-instagram {
-  padding-right: 10px;
-}
-
-.fa-facebook-f {
-  padding-right: 8px;
 }
 
 .navbar-nav {
