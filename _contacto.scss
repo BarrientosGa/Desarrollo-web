@@ -1,0 +1,128 @@
+.contenedorContacto{
+    width: 100%;
+    height: 100vh;
+}
+.contenedorContacto .estiloAFondo{
+    width: 100%;
+    height: 100vh;
+    background-image: url(IMG/background-2076334_1920.jpg);
+    background-size: cover;
+}
+.contenedorContacto .estiloAFondo .informacionContacto{
+    width: 50%;
+    height: 80vh;
+    position: relative;
+    left: 300px;
+    top: 65px;
+    background-color: white;
+
+}
+.contenedorContacto .estiloAFondo .informacionContacto h1{
+    padding-right: 13px;
+    font-weight:bold;
+}
+.contenedorContacto .estiloAFondo .informacionContacto p{
+    /*padding-right: 70px;*/
+    font-weight:bold;
+    padding-bottom: 30px;
+}
+.contenedorContacto .estiloAFondo .informacionContacto .bienvenida_Contacto{
+    background-color: grey;
+}
+.contenedorContacto .estiloAFondo .informacionContacto form{
+    position: relative;
+    left: 200px;
+
+}
+.contenedorContacto .estiloAFondo .informacionContacto form .nombreCompleto_Contacto{
+    border-style: none;
+    border-bottom:1px solid black; 
+    
+}
+.contenedorContacto .estiloAFondo .informacionContacto form .ingresaTuEmail_Contacto{
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+.contenedorContacto .estiloAFondo .informacionContacto form .escribiTuMensaje_Contacto{
+    border-style: none;
+    border:1px solid black;
+}
+.contenedorContacto .estiloAFondo .informacionContacto form .boton_Contacto{
+    border-style: none;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #E84D05;
+
+}
+.botomDeWpp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.container-fluid {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+    order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+    order: 3;
+    align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+    order: 1;
+}
+
+.fa-cc-visa {
+    font-size: $tamañoIconoFooter;
+    margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+    font-size: $tamañoIconoFooter;
+}
+
+.fa-cc-amex {
+    font-size: $tamañoIconoFooter;
+}
+
+.container-fluid .footer__suscripcion button {
+    position: relative;
+    left: 350px;
+    bottom: 38px;
+}
+
+.footer__formasDePago h2 {
+    font-weight: $grosorDePalabra;
+    font-size: 27.082px;
+    text-shadow: white 3px 2px;
+    position: relative;
+    left: 25px;
+}
+
+.footer__suscripcion h2 {
+    font-weight: $grosorDePalabra;
+    font-size: 27.082px;
+    text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra{
+    font-weight: $grosorDePalabra;
+}

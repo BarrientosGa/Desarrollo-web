@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import "inicio";
+@import "producto";
+@import "contacto";
+@import "sobreNosotros";
+@import "formaDeEnvios";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit !important;
+    /* resetea los colores*/
+    text-decoration: none !important;
+    /*le saca el subrayado*/
+    list-style: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background-image: url(IMG/background-2076334_1920.jpg);
+
+}
+body::-webkit-scrollbar{
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #CFCFCF;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .contenedor .logo img {
+        width: 25%;
+    }
+
+    .container-fluid .derechosDeAutor p {
+        padding-left: 150px;
+    }
+    .container-fluid .formasDePago {
+        display: none;
+    }
+
+    .container-fluid .suscripcion {
+        display: none;
+    }
+    .contenedor .barraDeBusqueda button {
+        display: none;
+    }
+    .container-fluid .derechosDeAutor {
+        width: 100%;
+        height: 50px;
+    }
+
+    .container-fluid .derechosDeAutor p {
+        padding-top: 40px;
+        padding-left: 150px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .header {
+        background-color: grey;
+        width: 100%;
+    }
+
+    .contenedor .logo img {
+        width: 30%;
+    }
+
+    .contenedor .barraDeBusqueda button {
+        display: none;
+    }
+
+    .container-fluid .formasDePago {
+        display: none;
+    }
+
+    .container-fluid .suscripcion {
+        display: none;
+    }
+
+    .container-fluid .derechosDeAutor {
+        width: 100%;
+        height: 50px;
+    }
+
+    .container-fluid .derechosDeAutor p {
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+}

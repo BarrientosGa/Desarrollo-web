@@ -1,0 +1,137 @@
+.mainFormasDeEnvios {
+    height: 600px;
+}
+
+.tituloFormaDeEnvio {
+    display: flex;
+    justify-content: center;
+
+}
+
+.tituloFormaDeEnvio h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: white 3px 2px;
+}
+
+.formasDeEnvios {
+    padding-left: 20px;
+}
+
+.formasDeEnvios .h2Sup {
+    font-weight: bold;
+    background-color: #FCF3CF;
+    width: 7%;
+    font-size: 25px;
+}
+
+.formasDeEnvios .parrafoSup {
+    font-weight: bold;
+}
+
+.formasDeEnvios .h2Inf {
+    font-weight: bold;
+    background-color: #F6DDCC;
+    width: 12.5%;
+    font-size: 25px;
+}
+
+.formasDeEnvios .parrafoInf {
+    font-weight: bold;
+}
+
+.quedateEnCasa {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+
+}
+
+.quedateEnCasa h2 {
+    width: 43%;
+    background-color: moccasin;
+
+}
+
+.mainFormasDeEnvios .botomDeWpp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.botomDeWpp:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: white;
+}
+.animate__jackInTheBox {
+    animation-iteration-count: 1;
+}
+
+.container-fluid {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+    order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+    order: 3;
+    align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+    order: 1;
+}
+
+.fa-cc-visa {
+    font-size: $tamañoIconoFooter;
+    margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+    font-size: $tamañoIconoFooter;
+}
+
+.fa-cc-amex {
+    font-size: $tamañoIconoFooter;
+}
+
+.container-fluid .footer__suscripcion button {
+    position: relative;
+    left: 350px;
+    bottom: 38px;
+}
+
+.footer__formasDePago h3 {
+    font-weight: $grosorDePalabra;
+    font-size: 27.082px;
+    text-shadow: white 3px 2px;
+    position: relative;
+    left: 25px;
+}
+
+.footer__suscripcion h3 {
+    font-weight: $grosorDePalabra;
+    font-size: 27.082px;
+    text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra{
+    font-weight: $grosorDePalabra;
+}

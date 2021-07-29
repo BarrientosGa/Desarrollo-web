@@ -1,0 +1,1032 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+.contenedor {
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contenedor .header__logo {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 20px;
+}
+
+.contenedor .header__logo img {
+  width: 16%;
+  height: 45px;
+}
+
+.contenedor .header__barraDeBusqueda {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contenedor .header__barraDeBusqueda button {
+  border-style: none;
+}
+
+.contenedor .header__redesSociales {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 25px;
+}
+
+.fa-instagram {
+  padding-right: 10px;
+}
+
+.fa-facebook-f {
+  padding-right: 8px;
+}
+
+.navbar-nav {
+  background-color: #E8F8F5;
+}
+
+.nav-link {
+  color: black;
+  padding: 5px 25px !important;
+  font-weight: bold !important;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid orange;
+}
+
+.contenedorMedio {
+  height: 170vh;
+}
+
+.main .botomDeWpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.botomDeWpp:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: white;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
+.container-fluid {
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.fa-cc-visa {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+  font-size: 25px;
+}
+
+.fa-cc-amex {
+  font-size: 25px;
+}
+
+.container-fluid .footer__suscripcion button {
+  position: relative;
+  left: 350px;
+  bottom: 38px;
+}
+
+.footer__formasDePago h1 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+  position: relative;
+  left: 25px;
+}
+
+.footer__suscripcion h2 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra {
+  font-weight: bold;
+}
+
+.container .carousel-item img {
+  width: 100%;
+  height: 500px;
+}
+
+.ultimasNoticiasInicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  height: 55vh;
+}
+
+.card:hover {
+  background-color: #D6DCE3;
+}
+
+.container h1 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  border-bottom: 3px solid #BAE0E1;
+  line-height: 1;
+}
+
+.contenedorMedioProducto {
+  height: 1150px;
+}
+
+.tituloSuperior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloSuperior h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  border-bottom: 1px solid orange;
+  font-size: 30px;
+}
+
+.tituloSuperior #parrafoDeTituloSuperior {
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+.productosSup {
+  width: 100%;
+  margin: 32px auto;
+  background-color: #D7BDE2;
+}
+
+.productosSup .prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nombresDeProd {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nombresDeProd .soft {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nombresDeProd .textmarker {
+  padding-left: 110px;
+  padding-right: 90px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nombresDeProd .fine {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.precioDeLosProdSup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.precioDeLosProdSup .precioImg1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1A5276;
+}
+
+.precioDeLosProdSup .precioImg2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+  color: #1A5276;
+}
+
+.precioDeLosProdSup .precioImg3 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1A5276;
+}
+
+.imagen1 {
+  width: 20%;
+  height: 250px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.imagen2 {
+  width: 22%;
+  height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  border-radius: 2em/1em;
+}
+
+.imagen3 {
+  width: 20%;
+  height: 250px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.tituloInferior {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tituloInferior h2 {
+  padding-top: 100px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 1px solid #7D3C98;
+  font-size: 30px;
+}
+
+.tituloInferior #parrafoTituloInferior {
+  font-weight: bold;
+  color: black;
+  font-size: 17px;
+  margin-top: 0px;
+  line-height: 0%;
+}
+
+.productosInf {
+  width: 100%;
+  margin: 32px auto;
+  background-color: powderblue;
+}
+
+.productosInf .prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nombreDeProdInf {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nombreDeProdInf .agenda {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nombreDeProdInf .lapiceraBic {
+  padding-left: 110px;
+  padding-right: 90px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nombreDeProdInf .lapicesBicolor {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.imagen4 {
+  width: 20%;
+  height: 250px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.imagen5 {
+  width: 22%;
+  height: 250px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  border-radius: 2em/1em;
+}
+
+.imagen6 {
+  width: 20%;
+  height: 250px;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+.mainProductos .botomDeWpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.imagen1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.imagen2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.imagen3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.imagen4:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.imagen5:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.imagen6:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container-fluid {
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.fa-cc-visa {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+  font-size: 25px;
+}
+
+.fa-cc-amex {
+  font-size: 25px;
+}
+
+.container-fluid .footer__suscripcion button {
+  position: relative;
+  left: 350px;
+  bottom: 38px;
+}
+
+.footer__formasDePago h3 {
+  font-weight: bold;
+  text-shadow: white 3px 2px;
+  position: relative;
+  left: 25px;
+}
+
+.footer__suscripcion h3 {
+  font-weight: bold;
+  text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra {
+  font-weight: bold;
+}
+
+.contenedorContacto {
+  width: 100%;
+  height: 100vh;
+}
+
+.contenedorContacto .estiloAFondo {
+  width: 100%;
+  height: 100vh;
+  background-image: url(IMG/background-2076334_1920.jpg);
+  background-size: cover;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto {
+  width: 50%;
+  height: 80vh;
+  position: relative;
+  left: 300px;
+  top: 65px;
+  background-color: white;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto h1 {
+  padding-right: 13px;
+  font-weight: bold;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto p {
+  /*padding-right: 70px;*/
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto .bienvenida_Contacto {
+  background-color: grey;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto form {
+  position: relative;
+  left: 200px;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto form .nombreCompleto_Contacto {
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto form .ingresaTuEmail_Contacto {
+  border-style: none;
+  border-bottom: 1px solid black;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto form .escribiTuMensaje_Contacto {
+  border-style: none;
+  border: 1px solid black;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto form .boton_Contacto {
+  border-style: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  background-color: #E84D05;
+}
+
+.botomDeWpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.container-fluid {
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.fa-cc-visa {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+  font-size: 25px;
+}
+
+.fa-cc-amex {
+  font-size: 25px;
+}
+
+.container-fluid .footer__suscripcion button {
+  position: relative;
+  left: 350px;
+  bottom: 38px;
+}
+
+.footer__formasDePago h2 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+  position: relative;
+  left: 25px;
+}
+
+.footer__suscripcion h2 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra {
+  font-weight: bold;
+}
+
+.contenedorSobreNosotros {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.contenedorSobreNosotros .bannerSobreNosotros {
+  width: 100%;
+  height: 20vh;
+  background-color: black;
+}
+
+.contenedorSobreNosotros .bannerSobreNosotros P {
+  color: white !important;
+  font-size: 40px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.contenedorSobreNosotros .informacionSobreNosotros {
+  width: 50%;
+  height: 50vh;
+  padding-top: 100px;
+  background-color: black;
+  margin-top: 90px;
+  margin-left: 60px;
+}
+
+.contenedorSobreNosotros .informacionSobreNosotros h1 {
+  font-weight: bold;
+  color: white !important;
+}
+
+.contenedorSobreNosotros .informacionSobreNosotros p {
+  color: white !important;
+}
+
+.container-fluid {
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.fa-cc-visa {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+  font-size: 25px;
+}
+
+.fa-cc-amex {
+  font-size: 25px;
+}
+
+.container-fluid .footer__suscripcion button {
+  position: relative;
+  left: 350px;
+  bottom: 38px;
+}
+
+.footer__formasDePago h2 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+  position: relative;
+  left: 25px;
+}
+
+.footer__suscripcion h2 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra {
+  font-weight: bold;
+}
+
+.mainFormasDeEnvios {
+  height: 600px;
+}
+
+.tituloFormaDeEnvio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tituloFormaDeEnvio h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: white 3px 2px;
+}
+
+.formasDeEnvios {
+  padding-left: 20px;
+}
+
+.formasDeEnvios .h2Sup {
+  font-weight: bold;
+  background-color: #FCF3CF;
+  width: 7%;
+  font-size: 25px;
+}
+
+.formasDeEnvios .parrafoSup {
+  font-weight: bold;
+}
+
+.formasDeEnvios .h2Inf {
+  font-weight: bold;
+  background-color: #F6DDCC;
+  width: 12.5%;
+  font-size: 25px;
+}
+
+.formasDeEnvios .parrafoInf {
+  font-weight: bold;
+}
+
+.quedateEnCasa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.quedateEnCasa h2 {
+  width: 43%;
+  background-color: moccasin;
+}
+
+.mainFormasDeEnvios .botomDeWpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.botomDeWpp:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: white;
+}
+
+.animate__jackInTheBox {
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.container-fluid {
+  background-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.fa-cc-visa {
+  font-size: 25px;
+  margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+  font-size: 25px;
+}
+
+.fa-cc-amex {
+  font-size: 25px;
+}
+
+.container-fluid .footer__suscripcion button {
+  position: relative;
+  left: 350px;
+  bottom: 38px;
+}
+
+.footer__formasDePago h3 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+  position: relative;
+  left: 25px;
+}
+
+.footer__suscripcion h3 {
+  font-weight: bold;
+  font-size: 27.082px;
+  text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra {
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit !important;
+  /* resetea los colores*/
+  text-decoration: none !important;
+  /*le saca el subrayado*/
+  list-style: none;
+}
+
+body {
+  font-family: 'Raleway', sans-serif !important;
+  background-image: url(IMG/background-2076334_1920.jpg);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #CFCFCF;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contenedor .logo img {
+    width: 25%;
+  }
+  .container-fluid .derechosDeAutor p {
+    padding-left: 150px;
+  }
+  .container-fluid .formasDePago {
+    display: none;
+  }
+  .container-fluid .suscripcion {
+    display: none;
+  }
+  .contenedor .barraDeBusqueda button {
+    display: none;
+  }
+  .container-fluid .derechosDeAutor {
+    width: 100%;
+    height: 50px;
+  }
+  .container-fluid .derechosDeAutor p {
+    padding-top: 40px;
+    padding-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    background-color: grey;
+    width: 100%;
+  }
+  .contenedor .logo img {
+    width: 30%;
+  }
+  .contenedor .barraDeBusqueda button {
+    display: none;
+  }
+  .container-fluid .formasDePago {
+    display: none;
+  }
+  .container-fluid .suscripcion {
+    display: none;
+  }
+  .container-fluid .derechosDeAutor {
+    width: 100%;
+    height: 50px;
+  }
+  .container-fluid .derechosDeAutor p {
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */

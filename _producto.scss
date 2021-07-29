@@ -1,0 +1,277 @@
+.contenedorMedioProducto {
+    height: 1150px;
+}
+
+.tituloSuperior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSuperior h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    border-bottom: 1px solid orange;
+    font-size: 30px;
+}
+
+.tituloSuperior #parrafoDeTituloSuperior {
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+.productosSup {
+    width: 100%;
+    margin: 32px auto;
+    background-color: #D7BDE2;
+}
+
+.productosSup .prod {
+    display: flex;
+    justify-content: center;
+}
+
+.nombresDeProd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nombresDeProd .soft {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nombresDeProd .textmarker {
+    padding-left: 110px;
+    padding-right: 90px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nombresDeProd .fine {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.precioDeLosProdSup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.precioDeLosProdSup .precioImg1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1A5276;
+}
+
+.precioDeLosProdSup .precioImg2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #1A5276;
+}
+
+.precioDeLosProdSup .precioImg3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1A5276;
+}
+
+.imagen1 {
+    width: 20%;
+    height: 250px;
+    transition: transform .5s;
+}
+
+.imagen2 {
+    width: 22%;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform .5s;
+    border-radius: 2em/1em;
+}
+
+.imagen3 {
+    width: 20%;
+    height: 250px;
+    transition: transform .5s;
+}
+
+.tituloInferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloInferior h2 {
+    padding-top: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 1px solid #7D3C98;
+    font-size: 30px;
+}
+
+.tituloInferior #parrafoTituloInferior {
+    font-weight: bold;
+    color: black;
+    font-size: 17px;
+    margin-top: 0px;
+    line-height: 0%;
+}
+
+.productosInf {
+    width: 100%;
+    margin: 32px auto;
+    background-color: powderblue;
+}
+
+.productosInf .prod {
+    display: flex;
+    justify-content: center;
+}
+
+.nombreDeProdInf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nombreDeProdInf .agenda {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nombreDeProdInf .lapiceraBic {
+    padding-left: 110px;
+    padding-right: 90px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nombreDeProdInf .lapicesBicolor {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagen4 {
+    width: 20%;
+    height: 250px;
+    transition: transform .5s;
+}
+
+.imagen5 {
+    width: 22%;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: transform .5s;
+    border-radius: 2em/1em;
+}
+
+.imagen6 {
+    width: 20%;
+    height: 250px;
+    transition: transform .5s;
+}
+
+.mainProductos .botomDeWpp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.imagen1:hover {
+    transform: scale(1.2);
+}
+
+.imagen2:hover {
+    transform: scale(1.2);
+}
+
+.imagen3:hover {
+    transform: scale(1.2);
+}
+
+.imagen4:hover {
+    transform: scale(1.2);
+}
+
+.imagen5:hover {
+    transform: scale(1.2);
+}
+
+
+.imagen6:hover {
+    transform: scale(1.2);
+}
+
+.container-fluid {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0%;
+}
+
+.container-fluid .footer__formasDePago {
+    order: 2;
+}
+
+.container-fluid .footer__derechosDeAutor {
+    order: 3;
+    align-self: flex-end;
+}
+
+.container-fluid .footer__suscripcion {
+    order: 1;
+}
+
+.fa-cc-visa {
+    font-size: $tamañoIconoFooter;
+    margin-left: 80px;
+}
+
+.fa-cc-mastercard {
+    font-size: $tamañoIconoFooter;
+}
+
+.fa-cc-amex {
+    font-size: $tamañoIconoFooter;
+}
+
+.container-fluid .footer__suscripcion button {
+    position: relative;
+    left: 350px;
+    bottom: 38px;
+}
+
+.footer__formasDePago h3 {
+    font-weight: bold;
+    text-shadow: white 3px 2px;
+    position: relative;
+    left: 25px;
+}
+
+.footer__suscripcion h3 {
+    font-weight: $grosorDePalabra;
+    text-shadow: white 3px 2px;
+}
+
+.footer__suscripcion--grosorDePalabra{
+    font-weight: $grosorDePalabra;
+}
