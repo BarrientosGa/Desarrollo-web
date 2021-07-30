@@ -258,7 +258,7 @@
 .productosSup {
   width: 100%;
   margin: 32px auto;
-  background-color: #D7BDE2;
+  background-color: #FFE4A3;
 }
 
 .productosSup .prod {
@@ -530,12 +530,6 @@
       align-self: flex-end;
 }
 
-.container-fluid .footer__suscripcion {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
 .fa-cc-visa {
   font-size: 25px;
   margin-left: 80px;
@@ -560,11 +554,11 @@
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
+  border-bottom: 1px solid white;
 }
 
-.footer__suscripcion h3 {
-  font-weight: bold;
-  text-shadow: white 3px 2px;
+.footer__formasDePago h3:hover {
+  border-bottom: 1px solid orange;
 }
 
 .footer__suscripcion--grosorDePalabra {
@@ -573,7 +567,7 @@
 
 .contenedorContacto {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
 }
 
 .contenedorContacto .estiloAFondo {
@@ -585,7 +579,7 @@
 
 .contenedorContacto .estiloAFondo .informacionContacto {
   width: 50%;
-  height: 80vh;
+  height: 90vh;
   position: relative;
   left: 300px;
   top: 65px;
@@ -605,11 +599,7 @@
 
 .contenedorContacto .estiloAFondo .informacionContacto .bienvenida_Contacto {
   background-color: grey;
-}
-
-.contenedorContacto .estiloAFondo .informacionContacto form {
-  position: relative;
-  left: 200px;
+  opacity: 0.7;
 }
 
 .contenedorContacto .estiloAFondo .informacionContacto form .nombreCompleto_Contacto {
@@ -633,7 +623,24 @@
   border: 1px solid black;
   border-radius: 10px;
   width: 30%;
-  background-color: #E84D05;
+  background-color: #6AD1F0;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto .container form {
+  padding-left: 35%;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto .cajaSuscripcion .botonDeSuscripcion {
+  border-style: none;
+}
+
+.contenedorContacto .estiloAFondo .informacionContacto .cajaSuscripcion input {
+  border-style: none;
+}
+
+.fa-badge-check {
+  background-color: white;
+  font-size: 20px;
 }
 
 .botomDeWpp {
@@ -677,12 +684,6 @@
       align-self: flex-end;
 }
 
-.container-fluid .footer__suscripcion {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
 .fa-cc-visa {
   font-size: 25px;
   margin-left: 80px;
@@ -696,40 +697,30 @@
   font-size: 25px;
 }
 
-.container-fluid .footer__suscripcion button {
-  position: relative;
-  left: 350px;
-  bottom: 38px;
-}
-
 .footer__formasDePago h2 {
   font-weight: bold;
   font-size: 27.082px;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
+  border-bottom: 1px solid white;
 }
 
-.footer__suscripcion h2 {
-  font-weight: bold;
-  font-size: 27.082px;
-  text-shadow: white 3px 2px;
-}
-
-.footer__suscripcion--grosorDePalabra {
-  font-weight: bold;
+.footer__formasDePago h2:hover {
+  border-bottom: 1px solid orange;
 }
 
 .contenedorSobreNosotros {
   width: 100%;
   height: 100vh;
-  background-color: white;
+  background-image: url(IMG/background-2076334_1920.jpg);
 }
 
 .contenedorSobreNosotros .bannerSobreNosotros {
   width: 100%;
   height: 20vh;
-  background-color: black;
+  background-color: #119C96;
+  opacity: 0.7;
 }
 
 .contenedorSobreNosotros .bannerSobreNosotros P {
@@ -737,6 +728,7 @@
   font-size: 40px;
   padding-top: 30px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros {
@@ -746,6 +738,7 @@
   background-color: black;
   margin-top: 90px;
   margin-left: 60px;
+  opacity: 0.8;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros h1 {
@@ -782,12 +775,6 @@
       align-self: flex-end;
 }
 
-.container-fluid .footer__suscripcion {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
 .fa-cc-visa {
   font-size: 25px;
   margin-left: 80px;
@@ -801,28 +788,12 @@
   font-size: 25px;
 }
 
-.container-fluid .footer__suscripcion button {
-  position: relative;
-  left: 350px;
-  bottom: 38px;
-}
-
 .footer__formasDePago h2 {
   font-weight: bold;
   font-size: 27.082px;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
-}
-
-.footer__suscripcion h2 {
-  font-weight: bold;
-  font-size: 27.082px;
-  text-shadow: white 3px 2px;
-}
-
-.footer__suscripcion--grosorDePalabra {
-  font-weight: bold;
 }
 
 .mainFormasDeEnvios {
@@ -843,6 +814,7 @@
   font-weight: bold;
   font-size: 30px;
   text-shadow: white 3px 2px;
+  padding-top: 20px;
 }
 
 .formasDeEnvios {
@@ -852,7 +824,7 @@
 .formasDeEnvios .h2Sup {
   font-weight: bold;
   background-color: #FCF3CF;
-  width: 7%;
+  width: 18%;
   font-size: 25px;
 }
 
@@ -863,7 +835,7 @@
 .formasDeEnvios .h2Inf {
   font-weight: bold;
   background-color: #F6DDCC;
-  width: 12.5%;
+  width: 31%;
   font-size: 25px;
 }
 
@@ -879,7 +851,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  top: 50px;
+  top: 20px;
 }
 
 .quedateEnCasa h2 {
@@ -958,12 +930,6 @@
   font-size: 25px;
 }
 
-.container-fluid .footer__suscripcion button {
-  position: relative;
-  left: 350px;
-  bottom: 38px;
-}
-
 .footer__formasDePago h3 {
   font-weight: bold;
   font-size: 27.082px;
@@ -972,14 +938,13 @@
   left: 25px;
 }
 
-.footer__suscripcion h3 {
-  font-weight: bold;
-  font-size: 27.082px;
-  text-shadow: white 3px 2px;
+.mainFormasDeEnvios .formasDeEnvios .cajaDeEnviosEnElDia {
+  padding-top: 100px;
+  width: 40%;
 }
 
-.footer__suscripcion--grosorDePalabra {
-  font-weight: bold;
+.mainFormasDeEnvios .formasDeEnvios .cajaDeFastmail {
+  width: 40%;
 }
 
 * {

@@ -13,6 +13,7 @@
     font-weight: bold;
     font-size: 30px;
     text-shadow: white 3px 2px;
+    padding-top: 20px;
 }
 
 .formasDeEnvios {
@@ -22,7 +23,7 @@
 .formasDeEnvios .h2Sup {
     font-weight: bold;
     background-color: #FCF3CF;
-    width: 7%;
+    width: 18%;
     font-size: 25px;
 }
 
@@ -33,7 +34,7 @@
 .formasDeEnvios .h2Inf {
     font-weight: bold;
     background-color: #F6DDCC;
-    width: 12.5%;
+    width: 31%;
     font-size: 25px;
 }
 
@@ -45,7 +46,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 50px;
+    top: 20px;
 
 }
 
@@ -112,12 +113,6 @@
     font-size: $tamañoIconoFooter;
 }
 
-.container-fluid .footer__suscripcion button {
-    position: relative;
-    left: 350px;
-    bottom: 38px;
-}
-
 .footer__formasDePago h3 {
     font-weight: $grosorDePalabra;
     font-size: 27.082px;
@@ -125,13 +120,10 @@
     position: relative;
     left: 25px;
 }
-
-.footer__suscripcion h3 {
-    font-weight: $grosorDePalabra;
-    font-size: 27.082px;
-    text-shadow: white 3px 2px;
+.mainFormasDeEnvios .formasDeEnvios .cajaDeEnviosEnElDia{
+    padding-top: 100px;
+    width: 40%;
 }
-
-.footer__suscripcion--grosorDePalabra{
-    font-weight: $grosorDePalabra;
+.mainFormasDeEnvios .formasDeEnvios .cajaDeFastmail{
+    width: 40%;
 }

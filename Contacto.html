@@ -43,12 +43,6 @@
             aria-describedby="btnGroupAddon">
         </div>
       </div>
-      <div class="header__redesSociales">
-        <a target="_blank" href="https://www.instagram.com/gyalibreria/">
-          <i class="fab fa-instagram"></i></a>
-        <a target="_blank" href="https://www.facebook.com/GYAlibreria/?ref=pages_you_manage">
-          <i class="fab fa-facebook-f"></i></a>
-      </div>
     </div>
   </header>
   <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
@@ -74,14 +68,26 @@
         <div class="informacionContacto">
           <div class="bienvenida_Contacto">
             <h1 class="text-center">¡Hola!</h1>
-          <p class="text-center">Dejanos tu mensaje.</p>
+            <p class="text-center">Dejanos tu mensaje.</p>
           </div>
-          <form>
-            <input type="text" name="nombreCompleto" placeholder="Ingresa tu nombre" required class="mb-3 nombreCompleto_Contacto"><br>
-            <input type="email" name="email" placeholder="Ingresa tu email" required class="mb-3 ingresaTuEmail_Contacto"><br>
-            <textarea name="textarea" cols="30" rows="5" required class="escribiTuMensaje_Contacto">Escribí tu mensaje</textarea><br>
+          <div class="container">
+            <form>
+              <input type="text" name="nombreCompleto" placeholder="Ingresa tu nombre" required
+                class="mb-3 nombreCompleto_Contacto"><br>
+              <input type="email" name="email" placeholder="Ingresa tu email" required
+                class="mb-3 ingresaTuEmail_Contacto"><br>
+              <textarea name="textarea" cols="30" rows="5" required
+                class="escribiTuMensaje_Contacto">Escribí tu mensaje</textarea><br>
               <button class="m-3 boton_Contacto fw-bold">Enviar mensaje</button>
-          </form>
+            </form>
+          </div>
+          <div class="container cajaSuscripcion">
+            <h2>Newsletter</h2>
+            <p>¿Querés recibir promociones y novedades? Suscribite a nuestro newsletter</p>
+            <input type="email" name="email" placeholder="Ingresa tu email" required class="border-bottom">
+            <button class="botonDeSuscripcion"><i class="fal fa-badge-check"></i></button>
+          </div>
+
         </div>
       </div>
     </div>
@@ -104,12 +110,14 @@
       <div class="footer__derechosDeAutor">
         <p class="derechosDeAutor">&copy; Copyright 2021 gya librería - Todos los derechos reservados</p>
       </div>
-      <div class="footer__suscripcion">
-        <h2>Suscribite</h2>
-        <p class="footer__suscripcion--grosorDePalabra">¡Para recibir nuestras promociones y novedades!</p>
-        <input type="email" class="form-control" id="email" placeholder="Email">
-        <button type="submit" class="btn btn-info">Enviar</button>
-
+      <div class="footer_Redes">
+        <h2>Redes</h2>
+        <a target="_blank" href="https://www.instagram.com/gyalibreria/">
+          <i class="fab fa-instagram"><span class="redes_Instagram">Instagram</span></i></a><br>
+        <a target="_blank" href="https://www.facebook.com/GYAlibreria/?ref=pages_you_manage">
+          <i class="fab fa-facebook-f"><span class="redes_Facebook">Facebook</span></i></a><br>
+        <a target="_blank" href="mailto:gyalibreria@gmail.com">
+          <i class="far fa-envelope"><span class="redes_Email">Email</span></i></a><br>
       </div>
     </div>
 
