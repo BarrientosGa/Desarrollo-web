@@ -224,6 +224,67 @@
   font-size: 17px;
 }
 
+@media only screen and (max-width: 576px) {
+  .contenedor .header__logo {
+    width: 200%;
+    height: 11.5vh;
+  }
+  .contenedor .header__barraDeBusqueda {
+    display: none;
+  }
+  .contenedorMedio {
+    height: 300vh;
+  }
+  .contenedorMedio .botomDeWpp {
+    display: none;
+  }
+  .container h1 {
+    text-align: center;
+  }
+  .contenedorMedio .carousel-item {
+    width: 100%;
+    height: 60vh;
+  }
+  .contenedorMedio .carousel-item img {
+    height: 60vh;
+  }
+  .contenedorMedio .carousel-inner .carousel-caption {
+    width: 50%;
+  }
+  .ultimasNoticiasInicio {
+    display: inline-block;
+  }
+  .ultimasNoticiasInicio .uno {
+    width: 90% !important;
+    height: 70vh;
+    margin-left: 45px;
+  }
+  .ultimasNoticiasInicio .dos {
+    width: 90% !important;
+    height: 50vh;
+    margin-top: 60px;
+    margin-right: 10px;
+  }
+  .ultimasNoticiasInicio .tres {
+    margin-top: 60px;
+    margin-left: 45px;
+    width: 90% !important;
+    height: 70vh;
+  }
+  .container-fluid {
+    height: 7vh;
+  }
+  .container-fluid .footer__formasDePago {
+    display: none;
+  }
+  .container-fluid .footer_Redes {
+    display: none;
+  }
+  .container-fluid .footer__derechosDeAutor p {
+    padding-left: 50px;
+  }
+}
+
 .contenedorMedioProducto {
   height: 1150px;
 }
@@ -825,7 +886,7 @@
 }
 
 .quedateEnCasa h2 {
-  width: 52%;
+  width: 50%;
   background-color: moccasin;
   font-family: 'Roboto', sans-serif;
 }
@@ -942,58 +1003,5 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: #CFCFCF;
   border-radius: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-  .contenedor .logo img {
-    width: 25%;
-  }
-  .container-fluid .derechosDeAutor p {
-    padding-left: 150px;
-  }
-  .container-fluid .formasDePago {
-    display: none;
-  }
-  .container-fluid .suscripcion {
-    display: none;
-  }
-  .contenedor .barraDeBusqueda button {
-    display: none;
-  }
-  .container-fluid .derechosDeAutor {
-    width: 100%;
-    height: 50px;
-  }
-  .container-fluid .derechosDeAutor p {
-    padding-top: 40px;
-    padding-left: 150px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .header {
-    background-color: grey;
-    width: 100%;
-  }
-  .contenedor .logo img {
-    width: 30%;
-  }
-  .contenedor .barraDeBusqueda button {
-    display: none;
-  }
-  .container-fluid .formasDePago {
-    display: none;
-  }
-  .container-fluid .suscripcion {
-    display: none;
-  }
-  .container-fluid .derechosDeAutor {
-    width: 100%;
-    height: 50px;
-  }
-  .container-fluid .derechosDeAutor p {
-    padding-top: 40px;
-    padding-left: 50px;
-  }
 }
 /*# sourceMappingURL=estilo.css.map */
