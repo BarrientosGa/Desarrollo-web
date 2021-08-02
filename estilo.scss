@@ -4,6 +4,7 @@
 @import "contacto";
 @import "sobreNosotros";
 @import "formaDeEnvios";
+
 * {
     margin: 0;
     padding: 0;
@@ -20,11 +21,12 @@ body {
     background-image: url(IMG/background-2076334_1920.jpg);
 
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     width: 12px;
 }
-body::-webkit-scrollbar-thumb{
+
+body::-webkit-scrollbar-thumb {
     background-color: #CFCFCF;
     border-radius: 5px;
 }
-    

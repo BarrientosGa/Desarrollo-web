@@ -4,6 +4,7 @@ $tituloFooter: 35px;
 $grosorDePalabra: bold;
 $colorBlanco: white;
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .contenedor {
     width: 100%;
     height: 50px;
@@ -11,25 +12,29 @@ $colorBlanco: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .contenedor .header__logo {
     align-self: $posicion_centro;
     padding-left: 20px;
 }
+
 .contenedor .header__logo img {
     width: 16%;
     height: 45px;
 }
 
-.contenedor .header__barraDeBusqueda{
+.contenedor .header__barraDeBusqueda {
     grid-column-start: 3;
     grid-column-end: 4;
     justify-self: $posicion_centro;
     align-self: $posicion_centro;
     padding-left: 170px;
 }
-.contenedor .header__barraDeBusqueda button{
+
+.contenedor .header__barraDeBusqueda button {
     border-style: none;
 }
+
 /*
 .navbar-nav {
     background-color: #E8F8F5;
@@ -51,18 +56,21 @@ $colorBlanco: white;
 .contenedorMedio {
     height: 170vh;
 }
-.contenedorMedio .carousel-inner .carousel-caption{
+
+.contenedorMedio .carousel-inner .carousel-caption {
     width: 25%;
     height: 20vh;
     background-color: grey;
     opacity: 0.7;
 }
-.contenedorMedio .carousel-inner .carousel-item .carousel-caption p{
+
+.contenedorMedio .carousel-inner .carousel-item .carousel-caption p {
     font-weight: bold;
     color: white !important;
     opacity: 1;
     padding-top: 20px;
-}    
+}
+
 .main .botomDeWpp {
     position: fixed;
     width: 60px;
@@ -88,12 +96,13 @@ $colorBlanco: white;
 .fa-whatsapp {
     margin-top: 16px;
 }
+
 .container-fluid {
     background-color: gainsboro;
     display: flex;
     justify-content: space-between;
     line-height: 0%;
-    
+
 }
 
 .container-fluid .footer__formasDePago {
@@ -105,6 +114,7 @@ $colorBlanco: white;
     order: 3;
     align-self: flex-end;
 }
+
 .fa-cc-visa {
     font-size: $tamañoIconoFooter;
     margin-left: 80px;
@@ -117,6 +127,7 @@ $colorBlanco: white;
 .fa-cc-amex {
     font-size: $tamañoIconoFooter;
 }
+
 .footer__formasDePago h1 {
     font-weight: $grosorDePalabra;
     font-size: 27.082px;
@@ -125,65 +136,78 @@ $colorBlanco: white;
     left: 25px;
     border-bottom: 1px solid white;
 }
-.footer__formasDePago h1:hover{
-    border-bottom:1px solid orange; 
+
+.footer__formasDePago h1:hover {
+    border-bottom: 1px solid orange;
 }
+
 .container .carousel-item img {
     width: 100%;
     height: 500px;
 }
 
-.ultimasNoticiasInicio{
+.ultimasNoticiasInicio {
     display: flex;
 }
-.card{
+
+.card {
     height: 55vh;
 }
-.card:hover{
+
+.card:hover {
     background-color: #D6DCE3;
 }
-.container h1{
+
+.container h1 {
     padding-top: 50px;
     padding-bottom: 15px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-    border-bottom:3px solid #BAE0E1;
+    border-bottom: 3px solid #BAE0E1;
     line-height: 1;
 
 }
-.container-fluid .footer_Redes h2{
+
+.container-fluid .footer_Redes h2 {
     font-weight: $grosorDePalabra;
     font-size: 27.082px;
     text-shadow: white 3px 2px;
     border-bottom: 1px solid white;
 }
-.container-fluid .footer_Redes h2:hover{
-    border-bottom:1px solid orange;
+
+.container-fluid .footer_Redes h2:hover {
+    border-bottom: 1px solid orange;
 }
-.container-fluid .footer_Redes i{
+
+.container-fluid .footer_Redes i {
     font-size: 20px;
 }
-.container-fluid .footer_Redes .fa-facebook-f{
+
+.container-fluid .footer_Redes .fa-facebook-f {
     padding-top: 10px;
 }
-.container-fluid .footer_Redes .fa-envelope{
+
+.container-fluid .footer_Redes .fa-envelope {
     padding-top: 10px;
 }
-.container-fluid .footer_Redes .redes_Instagram{
+
+.container-fluid .footer_Redes .redes_Instagram {
     padding-left: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 17px;
 }
-.container-fluid .footer_Redes .redes_Facebook{
+
+.container-fluid .footer_Redes .redes_Facebook {
     padding-left: 11px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 17px;
 }
-.container-fluid .footer_Redes .redes_Email{
+
+.container-fluid .footer_Redes .redes_Email {
     padding-left: 11px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -191,18 +215,63 @@ $colorBlanco: white;
 }
 
 
-@media only screen and (max-height: 360px) {
+@media only screen and(max-width: 1200px) {}
+
+@media only screen and(max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .contenedor .header__logo{
+        width: 150%;
+    }
+    .contenedor .header__barraDeBusqueda{
+        display: none;
+        
+    }
+    .container h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .contenedorMedio{
+        height:130vh;
+    }
+    .contenedorMedio .carousel-inner .carousel-caption{
+        width: 60%;
+        height: 11vh;
+        padding-top: 5px;
+    }
+    .ultimasNoticiasInicio .uno{
+        width: 85% !important;
+        height: 35vh;
+        margin-left: 45px;
+    }
+    .ultimasNoticiasInicio .dos{
+        width: 85% !important;
+        height: 36vh;
+        margin-left: 45px;
+    }
+    .ultimasNoticiasInicio .tres{
+        width: 85% !important;
+        height: 35vh;
+    }
+    .ultimasNoticiasInicio .tres p{
+        font-size: 16px;
+    }
+    .container-fluid .footer__formasDePago{
+        display: none;
+    }
+}
+@media only screen and (max-width: 575px){
     .contenedor{
         width: 100%;
     }
     .contenedor .header__logo{
-        width: 400%;
+        width: 200%;
     }
     .contenedor .header__barraDeBusqueda{
         display: none;
     }
     .contenedorMedio{
-        height: 200vh;
+        height: 220vh;
     }
     .contenedorMedio .botomDeWpp{
         display: none;
@@ -231,19 +300,20 @@ $colorBlanco: white;
     }
     .ultimasNoticiasInicio .uno{
         width: 70% !important;
-        height: 40vh;
-        margin-left: 45px;
+        height: 46vh;
+        margin-left: 80px;
     }
     .ultimasNoticiasInicio .dos{
         width: 70% !important;
         height: 40vh;
+        margin-left: 80px !important;
         margin-top: 60px;
     }
     .ultimasNoticiasInicio .tres{
-        margin-top: 60px;
-        margin-left: 45px;
         width: 70% !important;
-        height: 40vh;
+        height: 50vh;
+        margin-left: 80px;
+        margin-top: 60px;
     }
     .container-fluid{
         height: 5vh;
@@ -255,7 +325,7 @@ $colorBlanco: white;
         display: none;
     }
     .container-fluid .footer__derechosDeAutor p{
-        font-size: 11px;
-        padding-left: 10px;
+        font-size: 15px;
+        padding-left: 60px;
     }
 }
