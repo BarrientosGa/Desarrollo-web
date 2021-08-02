@@ -118,3 +118,61 @@
 .footer__formasDePago h2:hover{
     border-bottom: 1px solid orange;
 }
+
+@media only screen and(max-width: 1200px) {}
+
+@media only screen and(max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .contenedorContacto .estiloAFondo .informacionContacto{
+        width: 70%;
+        height: 90vh;
+        position: relative;
+        left: 110px;
+        top: 65px;
+        background-color: white;
+    
+    }
+    .contenedorContacto .estiloAFondo .informacionContacto form .boton_Contacto{
+        border-style: none;
+        background-color: white;
+        border:1px solid black;
+        border-radius: 10px;
+        width: 40%;
+        background-color: #6AD1F0;
+    
+    }
+    .contenedorContacto .estiloAFondo .informacionContacto .container form{
+        padding-left: 25%;    
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .contenedorContacto .estiloAFondo .informacionContacto{
+        width: 90%;
+        height: 90vh;
+        position: relative;
+        left: 15px;
+        top: 65px;
+        background-color: white;
+    
+    }
+    .contenedorContacto .estiloAFondo .informacionContacto .container form{
+        padding-left: 4%;    
+    }
+    .contenedorContacto .estiloAFondo .informacionContacto form .boton_Contacto{
+        border-style: none;
+        background-color: white;
+        border:1px solid black;
+        border-radius: 10px;
+        width: 60%;
+        background-color: #6AD1F0;
+    
+    }
+    .contenedorContacto .estiloAFondo .informacionContacto .container p{
+        font-size: 15px;
+    }
+    .botomDeWpp {
+        display: none;
+    }
+}

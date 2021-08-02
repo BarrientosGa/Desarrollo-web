@@ -270,6 +270,9 @@ $colorBlanco: white;
     .contenedor .header__barraDeBusqueda{
         display: none;
     }
+    .navbar{
+        z-index: 3;
+    }
     .contenedorMedio{
         height: 220vh;
     }
@@ -280,6 +283,9 @@ $colorBlanco: white;
         text-align: center;
         font-size: 20px;
         color: black !important;
+    }
+    .contenedorMedio .carousel-inner{
+        z-index: 1;
     }
     .contenedorMedio .carousel-item{
         width: 100%;

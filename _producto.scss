@@ -43,11 +43,12 @@
 .nombresDeProd .soft {
     font-weight: bold;
     font-size: 20px;
+    padding-left: 50px;
 }
 
 .nombresDeProd .textmarker {
     padding-left: 90px;
-    padding-right: 90px;
+    padding-right: 80px;
     font-weight: bold;
     font-size: 20px;
 }
@@ -55,7 +56,7 @@
 .nombresDeProd .fine {
     font-weight: bold;
     font-size: 20px;
-    padding-right: 20px;
+    padding-right: 60px;
 }
 
 .precioDeLosProdSup {
@@ -273,4 +274,69 @@
 
 .footer__suscripcion--grosorDePalabra{
     font-weight: $grosorDePalabra;
+}
+
+
+@media only screen and(max-width: 1200px) {}
+
+@media only screen and(max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .contenedorMedioProducto .productosSup .prod .imagen1{
+        width: 25%;
+        height: 30vh;
+        
+    }
+    .contenedorMedioProducto .productosSup .prod .imagen2{
+        width: 28%;
+        height: 30vh;
+    }
+    .contenedorMedioProducto .productosSup .prod .imagen3{
+        width: 25%;
+        height: 30vh;
+    }
+    .nombresDeProd .soft {
+        font-weight: bold;
+        font-size: 20px;
+        padding-left: 100px;
+    }
+    .nombresDeProd .textmarker {
+        padding-left: 80px;
+        /*padding-right: 80px;*/
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .nombresDeProd .fine {
+        font-weight: bold;
+        font-size: 20px;
+        padding-right: 110px;
+    }
+    .precioDeLosProdSup .precioImg1 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #1A5276;
+        padding-left: 100px;
+    }
+    .precioDeLosProdSup .precioImg2 {
+        font-weight: bold;
+        font-size: 20px;
+        /*padding-left: 250px;*/
+        color: #1A5276;
+    }
+}
+@media only screen and (max-width: 575px){
+    .tituloSuperior h1{
+        font-size: 20px;
+    }
+    .tituloSuperior #parrafoDeTituloSuperior {
+        font-size: 15px;
+    }
+    .productosSup {
+        width: 100%;
+        margin: 32px auto;
+        background-color: #FFE4A3;
+    }
+    .productosSup .prod {
+        display: block;
+    }
 }
