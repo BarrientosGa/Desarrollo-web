@@ -270,7 +270,7 @@
     width: 100%;
   }
   .contenedor .header__logo {
-    width: 200%;
+    width: 300%;
   }
   .contenedor .header__barraDeBusqueda {
     display: none;
@@ -305,19 +305,20 @@
   }
   .ultimasNoticiasInicio .uno {
     width: 70% !important;
-    height: 46vh;
-    margin-left: 80px;
+    height: 40vh;
+    margin-left: 50px;
+    margin-top: 60px;
   }
   .ultimasNoticiasInicio .dos {
     width: 70% !important;
     height: 40vh;
-    margin-left: 80px !important;
+    margin-left: 50px;
     margin-top: 60px;
   }
   .ultimasNoticiasInicio .tres {
     width: 70% !important;
-    height: 50vh;
-    margin-left: 80px;
+    height: 40vh;
+    margin-left: 50px;
     margin-top: 60px;
   }
   .container-fluid {
@@ -330,8 +331,8 @@
     display: none;
   }
   .container-fluid .footer__derechosDeAutor p {
-    font-size: 15px;
-    padding-left: 60px;
+    font-size: 11px;
+    padding-left: 19px;
   }
 }
 
