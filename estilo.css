@@ -1030,6 +1030,29 @@
   left: 25px;
 }
 
+@media only screen and (max-width: 768px) {
+  .contenedorSobreNosotros .informacionSobreNosotros {
+    width: 70%;
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contenedorSobreNosotros .informacionSobreNosotros {
+    width: 70%;
+    height: 50vh;
+  }
+  .contenedorSobreNosotros .informacionSobreNosotros h1 {
+    font-weight: bold;
+    color: white !important;
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+  .contenedorSobreNosotros .bannerSobreNosotros p {
+    font-size: 35px;
+  }
+}
+
 .mainFormaDeEnvios {
   width: 100%;
   height: 80vh;
@@ -1146,6 +1169,19 @@
 
 .mainFormasDeEnvios .formasDeEnvios .cajaDeFastmail {
   width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+  .quedateEnCasa h2 {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .quedateEnCasa h2 {
+    width: 63%;
+    font-size: 12px;
+  }
 }
 
 * {

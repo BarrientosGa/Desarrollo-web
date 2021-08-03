@@ -96,3 +96,19 @@
 .mainFormasDeEnvios .formasDeEnvios .cajaDeFastmail{
     width: 40%;
 }
+@media only screen and(max-width: 1200px) {}
+
+@media only screen and(max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .quedateEnCasa h2 {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 575px){
+    .quedateEnCasa h2 {
+        width: 63%;
+        font-size: 12px;
+    }
+
+}
