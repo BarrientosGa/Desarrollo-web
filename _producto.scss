@@ -200,6 +200,7 @@
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+
 .imagen1:hover {
     transform: scale(1.2);
 }
@@ -268,11 +269,12 @@
     left: 25px;
     border-bottom: 1px solid white;
 }
-.footer__formasDePago h3:hover{
-    border-bottom:1px solid orange; 
+
+.footer__formasDePago h3:hover {
+    border-bottom: 1px solid orange;
 }
 
-.footer__suscripcion--grosorDePalabra{
+.footer__suscripcion--grosorDePalabra {
     font-weight: $grosorDePalabra;
 }
 
@@ -282,61 +284,123 @@
 @media only screen and(max-width: 992px) {}
 
 @media only screen and (max-width: 768px) {
-    .contenedorMedioProducto .productosSup .prod .imagen1{
+    .contenedorMedioProducto .productosSup .prod .imagen1 {
         width: 25%;
         height: 30vh;
-        
+
     }
-    .contenedorMedioProducto .productosSup .prod .imagen2{
+
+    .contenedorMedioProducto .productosSup .prod .imagen2 {
         width: 28%;
         height: 30vh;
     }
-    .contenedorMedioProducto .productosSup .prod .imagen3{
+
+    .contenedorMedioProducto .productosSup .prod .imagen3 {
         width: 25%;
         height: 30vh;
     }
+
     .nombresDeProd .soft {
         font-weight: bold;
         font-size: 20px;
         padding-left: 100px;
     }
+
     .nombresDeProd .textmarker {
         padding-left: 80px;
         /*padding-right: 80px;*/
         font-weight: bold;
         font-size: 20px;
     }
+
     .nombresDeProd .fine {
         font-weight: bold;
         font-size: 20px;
         padding-right: 110px;
     }
-    .precioDeLosProdSup .precioImg1 {
-        font-weight: bold;
-        font-size: 20px;
-        color: #1A5276;
+
+    .precioDeLosProdSup {
+        display: none;
+    }
+
+    .contenedorMedioProducto .productosInf .prod .imagen4 {
+        width: 25%;
+        height: 30vh;
+    }
+
+    .contenedorMedioProducto .productosInf .prod .imagen5 {
+        width: 28%;
+        height: 30vh;
+    }
+
+    .contenedorMedioProducto .productosInf .prod .imagen6 {
+        width: 25%;
+        height: 30vh;
+    }
+
+    .nombreDeProdInf .agenda {
         padding-left: 100px;
     }
-    .precioDeLosProdSup .precioImg2 {
-        font-weight: bold;
-        font-size: 20px;
-        /*padding-left: 250px;*/
-        color: #1A5276;
+
+    .nombreDeProdInf .lapiceraBic {
+        padding-left: 80px;
     }
+
+    .nombreDeProdInf .lapicesBicolor {
+        padding-right: 110px;
+    }
+
 }
-@media only screen and (max-width: 575px){
-    .tituloSuperior h1{
+
+@media only screen and (max-width: 575px) {
+    .contenedorMedioProducto {
+        height: 90vh;
+    }
+
+    .tituloSuperior h1 {
         font-size: 20px;
     }
+
     .tituloSuperior #parrafoDeTituloSuperior {
         font-size: 15px;
     }
-    .productosSup {
-        width: 100%;
-        margin: 32px auto;
-        background-color: #FFE4A3;
+
+    .productosSup .prod img {
+        width: 27% !important;
+        height: 20vh !important;
     }
-    .productosSup .prod {
-        display: block;
+
+    .productosSup .prod .imagen2 {
+        width: 40% !important;
+    }
+
+    .nombresDeProd p {
+        display: none;
+    }
+
+    .precioDeLosProdSup p {
+        display: none;
+    }
+
+    .tituloInferior h2 {
+        font-size: 20px;
+    }
+
+    .tituloInferior #parrafoTituloInferior {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .productosInf .prod img {
+        width: 27% !important;
+        height: 20vh !important;
+    }
+
+    .productosInf .prod .imagen5 {
+        width: 40% !important;
+    }
+
+    .nombreDeProdInf p {
+        display: none;
     }
 }

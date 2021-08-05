@@ -1,23 +1,26 @@
-.contenedorSobreNosotros{
+.contenedorSobreNosotros {
     width: 100%;
     height: 100vh;
     background-image: url(IMG/background-2076334_1920.jpg);
 }
-.contenedorSobreNosotros .bannerSobreNosotros{
+
+.contenedorSobreNosotros .bannerSobreNosotros {
     width: 100%;
     height: 20vh;
-    background-color:#119C96;
+    background-color: #119C96;
     opacity: 0.7;
-    
+
 }
-.contenedorSobreNosotros .bannerSobreNosotros P{
+
+.contenedorSobreNosotros .bannerSobreNosotros P {
     color: white !important;
-    font-size:40px;
+    font-size: 40px;
     padding-top: 30px;
     font-weight: bold;
     opacity: 0.6;
 }
-.contenedorSobreNosotros .informacionSobreNosotros{
+
+.contenedorSobreNosotros .informacionSobreNosotros {
     width: 50%;
     height: 50vh;
     padding-top: 100px;
@@ -26,14 +29,17 @@
     margin-left: 60px;
     opacity: 0.8;
 }
-.contenedorSobreNosotros .informacionSobreNosotros h1{
+
+.contenedorSobreNosotros .informacionSobreNosotros h1 {
     font-weight: bold;
     color: white !important;
-    
+
 }
-.contenedorSobreNosotros .informacionSobreNosotros p{
+
+.contenedorSobreNosotros .informacionSobreNosotros p {
     color: white !important;
 }
+
 .container-fluid {
     background-color: gainsboro;
     display: flex;
@@ -77,25 +83,27 @@
 @media only screen and(max-width: 992px) {}
 
 @media only screen and (max-width: 768px) {
-    .contenedorSobreNosotros .informacionSobreNosotros{
+    .contenedorSobreNosotros .informacionSobreNosotros {
         width: 70%;
         height: 40vh;
     }
 }
 
-@media only screen and (max-width: 575px){
-    .contenedorSobreNosotros .informacionSobreNosotros{
+@media only screen and (max-width: 575px) {
+    .contenedorSobreNosotros .informacionSobreNosotros {
         width: 70%;
         height: 50vh;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros h1{
+
+    .contenedorSobreNosotros .informacionSobreNosotros h1 {
         font-weight: bold;
         color: white !important;
         padding-left: 25px;
         padding-bottom: 25px;
-        
+
     }
-    .contenedorSobreNosotros .bannerSobreNosotros p{
+
+    .contenedorSobreNosotros .bannerSobreNosotros p {
         font-size: 35px;
     }
 

@@ -250,7 +250,7 @@
   }
   .ultimasNoticiasInicio .dos {
     width: 85% !important;
-    height: 36vh;
+    height: 37vh;
     /*margin-left: 45px;*/
   }
   .ultimasNoticiasInicio .tres {
@@ -718,34 +718,71 @@
     font-size: 20px;
     padding-right: 110px;
   }
-  .precioDeLosProdSup .precioImg1 {
-    font-weight: bold;
-    font-size: 20px;
-    color: #1A5276;
+  .precioDeLosProdSup {
+    display: none;
+  }
+  .contenedorMedioProducto .productosInf .prod .imagen4 {
+    width: 25%;
+    height: 30vh;
+  }
+  .contenedorMedioProducto .productosInf .prod .imagen5 {
+    width: 28%;
+    height: 30vh;
+  }
+  .contenedorMedioProducto .productosInf .prod .imagen6 {
+    width: 25%;
+    height: 30vh;
+  }
+  .nombreDeProdInf .agenda {
     padding-left: 100px;
   }
-  .precioDeLosProdSup .precioImg2 {
-    font-weight: bold;
-    font-size: 20px;
-    /*padding-left: 250px;*/
-    color: #1A5276;
+  .nombreDeProdInf .lapiceraBic {
+    padding-left: 80px;
+  }
+  .nombreDeProdInf .lapicesBicolor {
+    padding-right: 110px;
   }
 }
 
 @media only screen and (max-width: 575px) {
+  .contenedorMedioProducto {
+    height: 90vh;
+  }
   .tituloSuperior h1 {
     font-size: 20px;
   }
   .tituloSuperior #parrafoDeTituloSuperior {
     font-size: 15px;
   }
-  .productosSup {
-    width: 100%;
-    margin: 32px auto;
-    background-color: #FFE4A3;
+  .productosSup .prod img {
+    width: 27% !important;
+    height: 20vh !important;
   }
-  .productosSup .prod {
-    display: block;
+  .productosSup .prod .imagen2 {
+    width: 40% !important;
+  }
+  .nombresDeProd p {
+    display: none;
+  }
+  .precioDeLosProdSup p {
+    display: none;
+  }
+  .tituloInferior h2 {
+    font-size: 20px;
+  }
+  .tituloInferior #parrafoTituloInferior {
+    font-size: 13px;
+    padding-top: 15px;
+  }
+  .productosInf .prod img {
+    width: 27% !important;
+    height: 20vh !important;
+  }
+  .productosInf .prod .imagen5 {
+    width: 40% !important;
+  }
+  .nombreDeProdInf p {
+    display: none;
   }
 }
 
