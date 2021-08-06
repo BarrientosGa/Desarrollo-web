@@ -796,7 +796,7 @@
   width: 50%;
   height: 90vh;
   position: relative;
-  left: 300px;
+  left: 350px;
   top: 65px;
   background-color: white;
 }
@@ -1086,7 +1086,7 @@
 
 .mainFormaDeEnvios {
   width: 100%;
-  height: 80vh;
+  height: 150vh;
 }
 
 .envios .contenedorFastmailFormaDeEnvios {
@@ -1097,6 +1097,12 @@
   width: 40%;
 }
 
+.mapaDeFormaDeEnvios {
+  top: 50px;
+  position: relative;
+  padding-left: 250px;
+}
+
 .quedateEnCasa {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1105,7 +1111,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  top: 20px;
+  top: 120px;
 }
 
 .quedateEnCasa h2 {
@@ -1209,6 +1215,12 @@
 }
 
 @media only screen and (max-width: 575px) {
+  .mainFormaDeEnvios {
+    height: 100vh;
+  }
+  .mapaDeFormaDeEnvios iframe {
+    display: none;
+  }
   .quedateEnCasa h2 {
     width: 63%;
     font-size: 12px;
