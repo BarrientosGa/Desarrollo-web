@@ -78,9 +78,21 @@
     left: 25px;
 }
 
-@media only screen and(max-width: 1200px) {}
+@media only screen and(max-width: 1200px) {
+    .contenedorSobreNosotros .bannerSobreNosotros{
+        height: 15vh;
+    }
+    .contenedorSobreNosotros .informacionSobreNosotros{
+        height: 30vh !important;
+    }
+}
 
-@media only screen and(max-width: 992px) {}
+@media only screen and(max-width: 992px) {
+    .contenedorSobreNosotros .informacionSobreNosotros{
+        width: 60%;
+        height: 30vh !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .contenedorSobreNosotros .informacionSobreNosotros {

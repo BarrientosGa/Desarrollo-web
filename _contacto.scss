@@ -136,9 +136,19 @@
     border-bottom: 1px solid orange;
 }
 
-@media only screen and(max-width: 1200px) {}
+@media only screen and(max-width: 1200px){
+    .contenedorContacto .estiloAFondo .informacionContacto {
+        position: relative;
+        left: 300px;
+    }
+}
 
-@media only screen and(max-width: 992px) {}
+@media only screen and(max-width: 992px) {
+    .contenedorContacto .estiloAFondo .informacionContacto {
+        position: relative;
+        left: 250px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .contenedorContacto .estiloAFondo .informacionContacto {
