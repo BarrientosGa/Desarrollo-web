@@ -311,6 +311,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contenedorMedioProducto{
+        height: 140vh;
+    }
     .contenedorMedioProducto .productosSup .prod .imagen1 {
         width: 25%;
         height: 20vh;

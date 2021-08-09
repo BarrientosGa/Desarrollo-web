@@ -220,29 +220,28 @@
 
 @media only screen and (max-width: 1200px) {
   .contenedorMedio {
-    height: 110vh;
+    height: 150vh;
   }
   .contenedorMedio .carousel-inner .carousel-caption {
     width: 40%;
     height: 11vh;
     padding-top: 25px;
   }
+  .contenedorMedio .carousel-inner .carousel-caption p {
+    position: relative;
+    bottom: 20px;
+  }
   .ultimasNoticiasInicio .uno {
-    /*width: 85% !important;*/
-    height: 32vh;
-    /*margin-left: 45px;*/
+    height: 50vh;
   }
   .ultimasNoticiasInicio .dos {
-    /*width: 85% !important;*/
-    height: 32vh;
-    /*margin-left: 45px;*/
+    height: 50vh;
   }
   .ultimasNoticiasInicio .dos img {
-    height: 13vh;
+    height: 29vh !important;
   }
   .ultimasNoticiasInicio .tres {
-    /*width: 85% !important;*/
-    height: 32vh;
+    height: 50vh;
   }
   .ultimasNoticiasInicio .dos img {
     height: 21vh;
@@ -254,7 +253,7 @@
     width: 130%;
   }
   .ultimasNoticiasInicio .dos img {
-    height: 18.5vh;
+    height: 25vh !important;
   }
 }
 
@@ -270,29 +269,31 @@
     font-size: 20px;
   }
   .contenedorMedio {
-    height: 110vh;
+    height: 140vh;
   }
   .contenedorMedio .carousel-inner .carousel-caption {
     width: 60%;
     height: 11vh;
     padding-top: 5px;
   }
+  .contenedorMedio .carousel-inner .carousel-caption p {
+    position: relative;
+    bottom: 5px;
+  }
   .ultimasNoticiasInicio .uno {
     width: 85% !important;
-    height: 30vh;
-    /*margin-left: 45px;*/
+    height: 40vh;
   }
   .ultimasNoticiasInicio .dos {
     width: 85% !important;
-    height: 30vh;
-    /*margin-left: 45px;*/
+    height: 40vh;
   }
   .ultimasNoticiasInicio .dos img {
-    height: 13vh;
+    height: 18.5vh !important;
   }
   .ultimasNoticiasInicio .tres {
     width: 85% !important;
-    height: 30vh;
+    height: 40vh;
   }
   .ultimasNoticiasInicio .tres p {
     font-size: 16px;
@@ -355,7 +356,7 @@
   }
   .ultimasNoticiasInicio .dos {
     width: 70% !important;
-    height: 50vh;
+    height: 40vh;
     margin-left: 50px;
     margin-top: 60px;
   }
@@ -754,6 +755,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .contenedorMedioProducto {
+    height: 140vh;
+  }
   .contenedorMedioProducto .productosSup .prod .imagen1 {
     width: 25%;
     height: 20vh;
@@ -1150,14 +1154,14 @@
     height: 15vh;
   }
   .contenedorSobreNosotros .informacionSobreNosotros {
-    height: 30vh !important;
+    height: 40vh !important;
   }
 }
 
 @media only screen and (max-width: 992px) {
   .contenedorSobreNosotros .informacionSobreNosotros {
     width: 60%;
-    height: 30vh !important;
+    height: 35vh !important;
   }
 }
 
@@ -1171,7 +1175,7 @@
 @media only screen and (max-width: 575px) {
   .contenedorSobreNosotros .informacionSobreNosotros {
     width: 70%;
-    height: 50vh;
+    height: 50vh !important;
   }
   .contenedorSobreNosotros .informacionSobreNosotros h1 {
     font-weight: bold;
@@ -1310,7 +1314,7 @@
 
 @media only screen and (max-width: 1200px) {
   .mainFormaDeEnvios {
-    height: 100vh;
+    height: 140vh;
   }
 }
 

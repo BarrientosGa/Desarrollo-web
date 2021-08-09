@@ -210,30 +210,29 @@ $colorBlanco: white;
 
 @media only screen and(max-width: 1200px) {
     .contenedorMedio {
-        height: 110vh;
+        height: 150vh;
     }
     .contenedorMedio .carousel-inner .carousel-caption {
         width: 40%;
         height: 11vh;
         padding-top: 25px;
     }
+    .contenedorMedio .carousel-inner .carousel-caption p{
+        position: relative;
+        bottom: 20px;
+    }
     .ultimasNoticiasInicio .uno {
-        /*width: 85% !important;*/
-        height: 32vh;
-        /*margin-left: 45px;*/
+        height: 50vh;
     }
 
     .ultimasNoticiasInicio .dos {
-        /*width: 85% !important;*/
-        height: 32vh;
-        /*margin-left: 45px;*/
+        height: 50vh;
     }
     .ultimasNoticiasInicio .dos img{
-        height: 13vh;
+        height: 29vh !important;
     }
     .ultimasNoticiasInicio .tres {
-        /*width: 85% !important;*/
-        height: 32vh;
+        height: 50vh;
     }
     .ultimasNoticiasInicio .dos img{
         height: 21vh;
@@ -245,7 +244,7 @@ $colorBlanco: white;
         width: 130%;
     }
     .ultimasNoticiasInicio .dos img{
-        height: 18.5vh;
+        height: 25vh !important;
     }
 }
 
@@ -265,7 +264,7 @@ $colorBlanco: white;
     }
 
     .contenedorMedio {
-        height: 110vh;
+        height: 140vh;
     }
 
     .contenedorMedio .carousel-inner .carousel-caption {
@@ -273,24 +272,25 @@ $colorBlanco: white;
         height: 11vh;
         padding-top: 5px;
     }
-
+    .contenedorMedio .carousel-inner .carousel-caption p{
+        position: relative;
+        bottom: 5px;
+    }
     .ultimasNoticiasInicio .uno {
         width: 85% !important;
-        height: 30vh;
-        /*margin-left: 45px;*/
+        height: 40vh;
     }
 
     .ultimasNoticiasInicio .dos {
         width: 85% !important;
-        height: 30vh;
-        /*margin-left: 45px;*/
+        height: 40vh;
     }
     .ultimasNoticiasInicio .dos img{
-        height: 13vh;
+        height: 18.5vh !important;
     }
     .ultimasNoticiasInicio .tres {
         width: 85% !important;
-        height: 30vh;
+        height: 40vh;
     }
 
     .ultimasNoticiasInicio .tres p {
@@ -369,7 +369,7 @@ $colorBlanco: white;
 
     .ultimasNoticiasInicio .dos {
         width: 70% !important;
-        height: 50vh;
+        height: 40vh;
         margin-left: 50px;
         margin-top: 60px;
     }
