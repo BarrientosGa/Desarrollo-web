@@ -1,6 +1,6 @@
 $posicion_centro: center;
-$tamañoIconoFooter: 25px;
-$tituloFooter: 35px;
+$tamañoIconoFooter: 1.563rem;
+$tituloFooter: 2.188rem;
 $grosorDePalabra: bold;
 $colorBlanco: white;
 
@@ -74,7 +74,7 @@ $colorBlanco: white;
     color: $colorBlanco;
     border-radius: 40px;
     text-align: $posicion_centro;
-    font-size: 30px;
+    font-size: 1.875rem;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 
@@ -123,7 +123,7 @@ $colorBlanco: white;
 
 .footer__formasDePago h1 {
     font-weight: $grosorDePalabra;
-    font-size: 27.082px;
+    font-size: 1.693rem;
     text-shadow: white 3px 2px;
     position: relative;
     left: 25px;
@@ -156,7 +156,7 @@ $colorBlanco: white;
     padding-bottom: 15px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
     border-bottom: 3px solid #BAE0E1;
     line-height: 1;
@@ -165,7 +165,7 @@ $colorBlanco: white;
 
 .container-fluid .footer_Redes h2 {
     font-weight: $grosorDePalabra;
-    font-size: 27.082px;
+    font-size: 1.693rem;
     text-shadow: white 3px 2px;
     border-bottom: 1px solid white;
 }
@@ -175,7 +175,7 @@ $colorBlanco: white;
 }
 
 .container-fluid .footer_Redes i {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .container-fluid .footer_Redes .fa-facebook-f {
@@ -187,24 +187,24 @@ $colorBlanco: white;
 }
 
 .container-fluid .footer_Redes .redes_Instagram {
-    padding-left: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.container-fluid .footer_Redes .redes_Facebook {
     padding-left: 11px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.063rem;
+}
+
+.container-fluid .footer_Redes .redes_Facebook {
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.063rem;
 }
 
 .container-fluid .footer_Redes .redes_Email {
     padding-left: 11px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 1.063rem;
 }
 
 

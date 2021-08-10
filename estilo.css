@@ -76,7 +76,7 @@
   color: white;
   border-radius: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   -webkit-box-shadow: 2px 2px 3px #999;
           box-shadow: 2px 2px 3px #999;
   z-index: 100;
@@ -119,21 +119,21 @@
 }
 
 .fa-cc-visa {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-left: 80px;
 }
 
 .fa-cc-mastercard {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .fa-cc-amex {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .footer__formasDePago h1 {
   font-weight: bold;
-  font-size: 27.082px;
+  font-size: 1.693rem;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
@@ -168,7 +168,7 @@
   padding-bottom: 15px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
   border-bottom: 3px solid #BAE0E1;
   line-height: 1;
@@ -176,7 +176,7 @@
 
 .container-fluid .footer_Redes h2 {
   font-weight: bold;
-  font-size: 27.082px;
+  font-size: 1.693rem;
   text-shadow: white 3px 2px;
   border-bottom: 1px solid white;
 }
@@ -186,7 +186,7 @@
 }
 
 .container-fluid .footer_Redes i {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .container-fluid .footer_Redes .fa-facebook-f {
@@ -198,24 +198,24 @@
 }
 
 .container-fluid .footer_Redes .redes_Instagram {
-  padding-left: 15px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 17px;
-}
-
-.container-fluid .footer_Redes .redes_Facebook {
   padding-left: 11px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.063rem;
+}
+
+.container-fluid .footer_Redes .redes_Facebook {
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.063rem;
 }
 
 .container-fluid .footer_Redes .redes_Email {
   padding-left: 11px;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1.063rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -403,13 +403,13 @@
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
   border-bottom: 1px solid orange;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .tituloSuperior #parrafoDeTituloSuperior {
   font-weight: bold;
   color: black;
-  font-size: 17px;
+  font-size: 1.063rem;
   margin-top: 0px;
 }
 
@@ -440,7 +440,7 @@
 
 .nombresDeProd .soft {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-left: 50px;
 }
 
@@ -448,12 +448,12 @@
   padding-left: 90px;
   padding-right: 80px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .nombresDeProd .fine {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-right: 60px;
 }
 
@@ -469,13 +469,13 @@
 
 .precioDeLosProdSup .precioImg1 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #1A5276;
 }
 
 .precioDeLosProdSup .precioImg2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-left: 250px;
   padding-right: 250px;
   color: #1A5276;
@@ -483,7 +483,7 @@
 
 .precioDeLosProdSup .precioImg3 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #1A5276;
 }
 
@@ -536,15 +536,17 @@
   text-transform: uppercase;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-bottom: 1px solid #7D3C98;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .tituloInferior #parrafoTituloInferior {
   font-weight: bold;
   color: black;
-  font-size: 17px;
+  font-size: 1.063rem;
   margin-top: 0px;
   line-height: 0%;
+  position: relative;
+  top: 10px;
 }
 
 .productosInf {
@@ -574,7 +576,7 @@
 
 .nombreDeProdInf .agenda {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-right: 60px;
 }
 
@@ -582,12 +584,12 @@
   padding-left: 90px;
   padding-right: 90px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .nombreDeProdInf .lapicesBicolor {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-right: 20px;
 }
 
@@ -631,7 +633,7 @@
   color: white;
   border-radius: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   -webkit-box-shadow: 2px 2px 3px #999;
           box-shadow: 2px 2px 3px #999;
   z-index: 100;
@@ -693,16 +695,16 @@
 }
 
 .fa-cc-visa {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-left: 80px;
 }
 
 .fa-cc-mastercard {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .fa-cc-amex {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .container-fluid .footer__suscripcion button {
@@ -730,6 +732,34 @@
 @media only screen and (max-width: 1200px) {
   .tituloInferior #parrafoTituloInferior {
     padding-top: 15px;
+  }
+  .nombresDeProd .soft {
+    position: relative;
+    left: 40px;
+  }
+  .nombresDeProd .textmarker {
+    position: relative;
+    left: 0px;
+  }
+  .nombresDeProd .fine {
+    position: relative;
+    right: 40px;
+  }
+  .precioDeLosProdSup .precioImg1 {
+    position: relative;
+    left: 30px;
+  }
+  .precioDeLosProdSup .precioImg3 {
+    position: relative;
+    right: 55px;
+  }
+  .nombreDeProdInf .lapiceraBic {
+    position: relative;
+    right: 20px;
+  }
+  .nombreDeProdInf .lapicesBicolor {
+    position: relative;
+    right: 50px;
   }
 }
 
@@ -760,46 +790,42 @@
   }
   .contenedorMedioProducto .productosSup .prod .imagen1 {
     width: 25%;
-    height: 20vh;
+    height: 25vh;
   }
   .contenedorMedioProducto .productosSup .prod .imagen2 {
     width: 28%;
-    height: 20vh;
+    height: 25vh;
   }
   .contenedorMedioProducto .productosSup .prod .imagen3 {
     width: 25%;
-    height: 20vh;
+    height: 25vh;
   }
   .nombresDeProd .soft {
     font-weight: bold;
     font-size: 20px;
-    padding-left: 100px;
   }
   .nombresDeProd .textmarker {
-    padding-left: 80px;
-    /*padding-right: 80px;*/
     font-weight: bold;
     font-size: 20px;
   }
   .nombresDeProd .fine {
     font-weight: bold;
     font-size: 20px;
-    padding-right: 110px;
   }
   .precioDeLosProdSup {
     display: none;
   }
   .contenedorMedioProducto .productosInf .prod .imagen4 {
     width: 25%;
-    height: 20vh;
+    height: 25vh;
   }
   .contenedorMedioProducto .productosInf .prod .imagen5 {
     width: 28%;
-    height: 20vh;
+    height: 25vh;
   }
   .contenedorMedioProducto .productosInf .prod .imagen6 {
     width: 25%;
-    height: 20vh;
+    height: 25vh;
   }
   .nombreDeProdInf .agenda {
     padding-left: 100px;
@@ -929,7 +955,7 @@
 
 .fa-badge-check {
   background-color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .botomDeWpp {
@@ -942,7 +968,7 @@
   color: white;
   border-radius: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   -webkit-box-shadow: 2px 2px 3px #999;
           box-shadow: 2px 2px 3px #999;
   z-index: 100;
@@ -974,21 +1000,21 @@
 }
 
 .fa-cc-visa {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-left: 80px;
 }
 
 .fa-cc-mastercard {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .fa-cc-amex {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .footer__formasDePago h2 {
   font-weight: bold;
-  font-size: 27.082px;
+  font-size: 1.693rem;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
@@ -1078,7 +1104,7 @@
 
 .contenedorSobreNosotros .bannerSobreNosotros P {
   color: white !important;
-  font-size: 40px;
+  font-size: 2.5rem;
   padding-top: 30px;
   font-weight: bold;
   opacity: 0.6;
@@ -1129,21 +1155,21 @@
 }
 
 .fa-cc-visa {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-left: 80px;
 }
 
 .fa-cc-mastercard {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .fa-cc-amex {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .footer__formasDePago h2 {
   font-weight: bold;
-  font-size: 27.082px;
+  font-size: 1.693rem;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
@@ -1234,7 +1260,7 @@
   color: white;
   border-radius: 40px;
   text-align: center;
-  font-size: 30px;
+  font-size: 1.875rem;
   -webkit-box-shadow: 2px 2px 3px #999;
           box-shadow: 2px 2px 3px #999;
   z-index: 100;
@@ -1283,21 +1309,21 @@
 }
 
 .fa-cc-visa {
-  font-size: 25px;
+  font-size: 1.563rem;
   margin-left: 80px;
 }
 
 .fa-cc-mastercard {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .fa-cc-amex {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
 
 .footer__formasDePago h3 {
   font-weight: bold;
-  font-size: 27.082px;
+  font-size: 1.693rem;
   text-shadow: white 3px 2px;
   position: relative;
   left: 25px;
