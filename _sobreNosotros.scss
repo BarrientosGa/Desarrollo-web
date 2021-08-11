@@ -26,18 +26,23 @@
     padding-top: 100px;
     background-color: black;
     margin-top: 90px;
-    margin-left: 60px;
     opacity: 0.8;
+    box-shadow: 5px 5px 6px 5px grey;
+    position: relative;
+    left: 350px;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros h1 {
     font-weight: bold;
     color: white !important;
-
+    position: relative;
+    left: 190px;
+    bottom: 10px;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros p {
     color: white !important;
+    padding-left: 10px;
 }
 
 .container-fluid {
@@ -84,6 +89,12 @@
     }
     .contenedorSobreNosotros .informacionSobreNosotros{
         height: 40vh !important;
+        position: relative;
+        left: 300px;
+    }
+    .contenedorSobreNosotros .informacionSobreNosotros h1{
+        position: relative;
+        left: 150px;
     }
 }
 
@@ -91,6 +102,12 @@
     .contenedorSobreNosotros .informacionSobreNosotros{
         width: 60%;
         height: 35vh !important;
+        position: relative;
+        left: 200px;
+    }
+    .contenedorSobreNosotros .informacionSobreNosotros h1{
+        position: relative;
+        left: 170px;
     }
 }
 
@@ -98,6 +115,12 @@
     .contenedorSobreNosotros .informacionSobreNosotros {
         width: 70%;
         height: 40vh;
+        position: relative;
+        left: 120px;
+    }
+    .contenedorSobreNosotros .informacionSobreNosotros h1{
+        position: relative;
+        left: 150px;
     }
 }
 
@@ -105,18 +128,21 @@
     .contenedorSobreNosotros .informacionSobreNosotros {
         width: 70%;
         height: 50vh !important;
+        position: relative;
+        left: 50px;
     }
 
     .contenedorSobreNosotros .informacionSobreNosotros h1 {
         font-weight: bold;
         color: white !important;
-        padding-left: 25px;
-        padding-bottom: 25px;
-
+        position: relative;
+        left: 30px;
+        font-size: 25px;
     }
-
+    .contenedorSobreNosotros .informacionSobreNosotros p{
+        font-size: 14px;
+    }
     .contenedorSobreNosotros .bannerSobreNosotros p {
         font-size: 35px;
     }
-
 }

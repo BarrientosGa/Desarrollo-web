@@ -17,6 +17,7 @@
     left: 350px;
     top: 65px;
     background-color: white;
+    box-shadow: 10px 10px 10px 5px black;
 
 }
 
@@ -184,7 +185,7 @@
         left: 15px;
         top: 65px;
         background-color: white;
-
+        box-shadow: none;
     }
 
     .contenedorContacto .estiloAFondo .informacionContacto .container form {

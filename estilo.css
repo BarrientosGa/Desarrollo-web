@@ -304,6 +304,9 @@
 }
 
 @media only screen and (max-width: 575px) {
+  .navbar-nav {
+    background-color: #efefef !important;
+  }
   .contenedor {
     width: 100%;
   }
@@ -899,6 +902,8 @@
   left: 350px;
   top: 65px;
   background-color: white;
+  -webkit-box-shadow: 10px 10px 10px 5px black;
+          box-shadow: 10px 10px 10px 5px black;
 }
 
 .contenedorContacto .estiloAFondo .informacionContacto h1 {
@@ -1069,6 +1074,8 @@
     left: 15px;
     top: 65px;
     background-color: white;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .contenedorContacto .estiloAFondo .informacionContacto .container form {
     padding-left: 4%;
@@ -1116,17 +1123,24 @@
   padding-top: 100px;
   background-color: black;
   margin-top: 90px;
-  margin-left: 60px;
   opacity: 0.8;
+  -webkit-box-shadow: 5px 5px 6px 5px grey;
+          box-shadow: 5px 5px 6px 5px grey;
+  position: relative;
+  left: 350px;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros h1 {
   font-weight: bold;
   color: white !important;
+  position: relative;
+  left: 190px;
+  bottom: 10px;
 }
 
 .contenedorSobreNosotros .informacionSobreNosotros p {
   color: white !important;
+  padding-left: 10px;
 }
 
 .container-fluid {
@@ -1181,6 +1195,12 @@
   }
   .contenedorSobreNosotros .informacionSobreNosotros {
     height: 40vh !important;
+    position: relative;
+    left: 300px;
+  }
+  .contenedorSobreNosotros .informacionSobreNosotros h1 {
+    position: relative;
+    left: 150px;
   }
 }
 
@@ -1188,6 +1208,12 @@
   .contenedorSobreNosotros .informacionSobreNosotros {
     width: 60%;
     height: 35vh !important;
+    position: relative;
+    left: 200px;
+  }
+  .contenedorSobreNosotros .informacionSobreNosotros h1 {
+    position: relative;
+    left: 170px;
   }
 }
 
@@ -1195,6 +1221,12 @@
   .contenedorSobreNosotros .informacionSobreNosotros {
     width: 70%;
     height: 40vh;
+    position: relative;
+    left: 120px;
+  }
+  .contenedorSobreNosotros .informacionSobreNosotros h1 {
+    position: relative;
+    left: 150px;
   }
 }
 
@@ -1202,12 +1234,18 @@
   .contenedorSobreNosotros .informacionSobreNosotros {
     width: 70%;
     height: 50vh !important;
+    position: relative;
+    left: 50px;
   }
   .contenedorSobreNosotros .informacionSobreNosotros h1 {
     font-weight: bold;
     color: white !important;
-    padding-left: 25px;
-    padding-bottom: 25px;
+    position: relative;
+    left: 30px;
+    font-size: 25px;
+  }
+  .contenedorSobreNosotros .informacionSobreNosotros p {
+    font-size: 14px;
   }
   .contenedorSobreNosotros .bannerSobreNosotros p {
     font-size: 35px;
@@ -1374,7 +1412,7 @@
     display: none;
   }
   .quedateEnCasa h2 {
-    width: 63%;
+    width: 62%;
     font-size: 12px;
   }
 }
