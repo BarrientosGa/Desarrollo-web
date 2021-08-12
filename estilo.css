@@ -979,6 +979,14 @@
   z-index: 100;
 }
 
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
 .container-fluid {
   background-color: gainsboro;
   display: -webkit-box;
