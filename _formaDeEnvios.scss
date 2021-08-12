@@ -12,11 +12,13 @@
 .envios .contenedorEnvioEnElDiaFormaDeEnvios {
     width: 40%;
 }
-.mapaDeFormaDeEnvios{
+
+.mapaDeFormaDeEnvios {
     top: 50px;
     position: relative;
     padding-left: 250px;
 }
+
 .quedateEnCasa {
     display: flex;
     justify-content: center;
@@ -113,22 +115,25 @@
 }
 
 @media only screen and(max-width: 992px) {
-    .mapaDeFormaDeEnvios{
+    .mapaDeFormaDeEnvios {
         position: relative;
         padding-left: 170px;
     }
+
     .quedateEnCasa h2 {
         width: 56%;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .mainFormaDeEnvios{
+    .mainFormaDeEnvios {
         height: 90vh;
     }
-    .mapaDeFormaDeEnvios iframe{
+
+    .mapaDeFormaDeEnvios iframe {
         display: none;
     }
+
     .quedateEnCasa h2 {
         width: 65%;
     }
@@ -138,9 +143,11 @@
     .mainFormaDeEnvios {
         height: 100vh;
     }
-    .mapaDeFormaDeEnvios iframe{
+
+    .mapaDeFormaDeEnvios iframe {
         display: none;
     }
+
     .quedateEnCasa h2 {
         width: 62%;
         font-size: 12px;

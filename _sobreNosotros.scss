@@ -84,44 +84,49 @@
 }
 
 @media only screen and(max-width: 1200px) {
-    .contenedorSobreNosotros .bannerSobreNosotros{
+    .contenedorSobreNosotros .bannerSobreNosotros {
         height: 15vh;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros{
+
+    .contenedorSobreNosotros .informacionSobreNosotros {
         height: 40vh !important;
         position: relative;
         left: 300px;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros h1{
+
+    .contenedorSobreNosotros .informacionSobreNosotros h1 {
         position: relative;
         left: 150px;
     }
 }
 
 @media only screen and(max-width: 992px) {
-    .contenedorSobreNosotros .informacionSobreNosotros{
+    .contenedorSobreNosotros .informacionSobreNosotros {
         width: 60%;
         height: 35vh !important;
         position: relative;
         left: 200px;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros h1{
+
+    .contenedorSobreNosotros .informacionSobreNosotros h1 {
         position: relative;
         left: 170px;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .contenedorSobreNosotros{
+    .contenedorSobreNosotros {
         height: 80vh;
     }
+
     .contenedorSobreNosotros .informacionSobreNosotros {
         width: 60%;
         height: 40vh;
         position: relative;
         left: 140px;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros h1{
+
+    .contenedorSobreNosotros .informacionSobreNosotros h1 {
         position: relative;
         left: 100px;
     }
@@ -142,9 +147,11 @@
         left: 30px;
         font-size: 25px;
     }
-    .contenedorSobreNosotros .informacionSobreNosotros p{
+
+    .contenedorSobreNosotros .informacionSobreNosotros p {
         font-size: 14px;
     }
+
     .contenedorSobreNosotros .bannerSobreNosotros p {
         font-size: 35px;
     }
