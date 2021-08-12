@@ -112,15 +112,18 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .contenedorSobreNosotros{
+        height: 80vh;
+    }
     .contenedorSobreNosotros .informacionSobreNosotros {
-        width: 70%;
+        width: 60%;
         height: 40vh;
         position: relative;
-        left: 120px;
+        left: 140px;
     }
     .contenedorSobreNosotros .informacionSobreNosotros h1{
         position: relative;
-        left: 150px;
+        left: 100px;
     }
 }
 
