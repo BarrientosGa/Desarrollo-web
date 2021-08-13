@@ -439,6 +439,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-shadow: #e1d3ff 1px 2px;
 }
 
 .nombresDeProd .soft {
@@ -575,6 +576,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-shadow: #f1e872 1px 2px;
 }
 
 .nombreDeProdInf .agenda {
