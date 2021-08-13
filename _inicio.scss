@@ -3,6 +3,7 @@ $tamañoIconoFooter: 1.563rem;
 $tituloFooter: 2.188rem;
 $grosorDePalabra: bold;
 $colorBlanco: white;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Italianno&display=swap');
 
 .contenedor {
     width: 100%;
@@ -49,7 +50,16 @@ $colorBlanco: white;
 .contenedorMedio {
     height: 170vh;
 }
-
+.contenedorMedio h1{
+    text-align: center;
+    margin-bottom: 15px;
+    position: relative;
+    top: 7px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    color: grey !important;
+    font-size: 3.125rem;
+}
 .contenedorMedio .carousel-inner .carousel-caption {
     width: 25%;
     height: 20vh;
@@ -88,6 +98,15 @@ $colorBlanco: white;
 
 .fa-whatsapp {
     margin-top: 16px;
+}
+.contenedorMedio h2{
+    font-family: 'Amatic SC', cursive !important;
+    font-weight:bold;
+    /*color: g !important;*/
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
 }
 
 .container-fluid {
@@ -347,7 +366,12 @@ $colorBlanco: white;
         font-size: 20px;
         color: black !important;
     }
-
+    .contenedorMedio h2{
+        position: relative;
+        left: 12px;
+        top: 50px;
+        padding-left: 30px
+    }
     .contenedorMedio .carousel-inner {
         z-index: 1;
     }

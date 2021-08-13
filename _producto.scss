@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Italianno&display=swap');
+
 .contenedorMedioProducto {
     height: 1150px;
 }
@@ -11,9 +13,9 @@
 .tituloSuperior h1 {
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-family: 'Amatic SC', cursive;
     border-bottom: 1px solid orange;
-    font-size: 1.875rem;
+    font-size: 3.125rem;
 }
 
 .tituloSuperior #parrafoDeTituloSuperior {
@@ -118,9 +120,9 @@
     padding-top: 100px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Amatic SC', cursive;
     border-bottom: 1px solid #7D3C98;
-    font-size: 1.875rem;
+    font-size: 3.125rem;
 }
 
 .tituloInferior #parrafoTituloInferior {
