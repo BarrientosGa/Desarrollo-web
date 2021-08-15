@@ -48,7 +48,7 @@ $colorBlanco: white;
 
 
 .contenedorMedio {
-    height: 170vh;
+    height: 200vh;
 }
 .contenedorMedio h1{
     text-align: center;
@@ -229,7 +229,7 @@ $colorBlanco: white;
 
 @media only screen and(max-width: 1200px) {
     .contenedorMedio {
-        height: 150vh;
+        height: 180vh;
     }
 
     .contenedorMedio .carousel-inner .carousel-caption {
@@ -290,7 +290,7 @@ $colorBlanco: white;
     }
 
     .contenedorMedio {
-        height: 140vh;
+        height: 160vh;
     }
 
     .contenedorMedio .carousel-inner .carousel-caption {
@@ -354,9 +354,18 @@ $colorBlanco: white;
     }
 
     .contenedorMedio {
-        height: 220vh;
+        height: 250vh;
     }
-
+    .container .tituloDeBienvenida{
+        font-size: 35px;
+        position: relative;
+        left: 1.5px;
+    }
+    .container .parrafoDeBienvenida{
+        position: relative;
+        top: 40px;
+        font-size: 15px;
+    }
     .contenedorMedio .botomDeWpp {
         display: none;
     }
