@@ -50,7 +50,8 @@ $colorBlanco: white;
 .contenedorMedio {
     height: 200vh;
 }
-.contenedorMedio h1{
+
+.contenedorMedio h1 {
     text-align: center;
     margin-bottom: 15px;
     position: relative;
@@ -60,6 +61,7 @@ $colorBlanco: white;
     color: grey !important;
     font-size: 3.125rem;
 }
+
 .contenedorMedio .carousel-inner .carousel-caption {
     width: 25%;
     height: 20vh;
@@ -99,9 +101,10 @@ $colorBlanco: white;
 .fa-whatsapp {
     margin-top: 16px;
 }
-.contenedorMedio h2{
+
+.contenedorMedio h2 {
     font-family: 'Amatic SC', cursive !important;
-    font-weight:bold;
+    font-weight: bold;
     /*color: g !important;*/
     font-size: 3.125rem;
     margin-bottom: 20px;
@@ -356,16 +359,19 @@ $colorBlanco: white;
     .contenedorMedio {
         height: 250vh;
     }
-    .container .tituloDeBienvenida{
+
+    .container .tituloDeBienvenida {
         font-size: 35px;
         position: relative;
         left: 1.5px;
     }
-    .container .parrafoDeBienvenida{
+
+    .container .parrafoDeBienvenida {
         position: relative;
         top: 40px;
         font-size: 15px;
     }
+
     .contenedorMedio .botomDeWpp {
         display: none;
     }
@@ -375,12 +381,14 @@ $colorBlanco: white;
         font-size: 20px;
         color: black !important;
     }
-    .contenedorMedio h2{
+
+    .contenedorMedio h2 {
         position: relative;
         left: 12px;
         top: 50px;
         padding-left: 30px
     }
+
     .contenedorMedio .carousel-inner {
         z-index: 1;
     }
